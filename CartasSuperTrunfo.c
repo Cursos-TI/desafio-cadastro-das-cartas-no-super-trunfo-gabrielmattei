@@ -30,7 +30,7 @@ int main(){
     scanf("%s", codigo1);
 
     printf("Digite o nome da cidade: ");
-    scanf(" %[^\n]", cidade1);
+    scanf("%s", cidade1);
 
     printf("Digite a populacao: ");
     scanf("%d", &populacao1);
@@ -45,7 +45,7 @@ int main(){
     scanf("%d", &pontosTuristicos1);
 
     // Entrada de dados da Carta 2
-    printf("\nCadastro da Carta 2\n");
+    printf("Cadastro da Carta 2\n");
     printf("Digite o estado (A-H): ");
     scanf(" %c", &estado2);
 
@@ -53,7 +53,7 @@ int main(){
     scanf("%s", codigo2);
 
     printf("Digite o nome da cidade: ");
-    scanf(" %[^\n]", cidade2);
+    scanf("%s", cidade2);
 
     printf("Digite a populacao: ");
     scanf("%d", &populacao2);
